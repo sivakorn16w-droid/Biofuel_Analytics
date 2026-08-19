@@ -1976,6 +1976,13 @@ body:has(#themeSwitch:checked) .kpi-inline--diff{
 .kii-label{ font-size:12.5px; color:var(--text-dim); white-space:nowrap; font-weight:500; margin-bottom:4px; }
 .kii-value{ font-size:26px; font-weight:700; color:var(--text); white-space:nowrap; letter-spacing:-.3px; }
 .kii-value .unit{ font-size:11px; color:var(--text-faint); font-weight:400; margin-left:3px; }
+.kii-subtext{
+  margin-top: 4px;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-faint);
+  letter-spacing: .01em;
+}
 .kpi-inline .kpi-trend{
   order:3; flex-basis:100%;
   font-size:12px; font-weight:600; padding:0; border-radius:0;
